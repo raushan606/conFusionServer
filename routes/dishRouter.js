@@ -1,10 +1,8 @@
 const express = require("express");
 const bodyParser = require("body-parser");
 const dishRouter = express.Router();
-const mongoose = require("mongoose");
 
 const Dishes = require("../models/dishes");
-const e = require("express");
 
 dishRouter.use(bodyParser.json());
 
@@ -62,7 +60,7 @@ dishRouter
     Dishes.findById(req.params.dishId)
       .then(
         (dish) => {
-          console.log("Dish Created ", dish);
+        
           res.statusCode = 200;
           res.setHeader("Content-Type", "application/json");
           res.json(dish);
