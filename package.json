@@ -14,7 +14,7 @@
     "jade": "~1.11.0",
     "jsonwebtoken": "^8.5.1",
     "mongodb": "^3.5.9",
-    "mongoose": "^5.9.26",
+    "mongoose": "^5.13.20",
     "mongoose-currency": "^0.2.0",
     "morgan": "~1.9.1",
     "passport": "^0.4.1",
